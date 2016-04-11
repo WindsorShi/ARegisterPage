@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(48, 168, 179, 0.52);
+    font-family: "华文楷体";
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 780px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: grey solid 1px;
+    width: 720px;
+}
+
+table caption {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table tr td:nth-child(1) {
+    text-align: right;
+}
+
+table tr td:nth-child(2) {
+    text-align: left;
+    color: blue;
+}
+
+table td {
+    display: table-cell;
+    border: grey solid 1px;
+    text-align: right;
+    font-weight: 500;
+    font-size: 16px;
+    height: 28px;
+    line-height: 150%;
+}
+
+table th {
+    display: table-cell;
+    border: grey solid 1px;
+    height: 25px;
+    text-align: left;
+    background-color: #EEEEEE;
+    color: rgb(0, 51, 153);
+}
+
+.sign {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+nav {
+    float: right;
+    height: 15px;
+    margin-right: 20px;
+    margin-top: 66px;
+}
+
+nav a {
+    color: #FF0099;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.table caption {
+    margin-bottom: 20px;
+}
+
+#teachrange,
+#teachingarea,
+#teachmode {
+    font-size: 16px;
+    color: black;
+}
+
+#submit {
+    text-align: center;
+}
